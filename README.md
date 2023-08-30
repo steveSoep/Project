@@ -1,10 +1,14 @@
 # 프로젝트 주제
 --- 
+## 목표
+
+## 기능
+
 ## 기간
   8/29 ~ 9/6
  
 ## 개발환경
- HTML
- CSS
- JAVASCRIPT
+- HTML
+- CSS
+- JAVASCRIPT
  
