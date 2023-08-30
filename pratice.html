@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>학습 및 연습</title>
+  <link rel="stylesheet" href="pratice.css">
+</head>
+
+<body>
+  <main class="login">
+    <img src="https://youimg1.tripcdn.com/target/01005120004ehks1d1E61_C_640_320_R5_Q70.jpg_.webp" alt="">
+
+    <h2 class="main-title">여행 일정 입력</h2>
+
+    <form class="main-form" method="POST">
+      <div class="flex-input">
+        <label for="user-id">어디로 여행하시나요?</label>
+        <input id="user-id" name="user-id" type="text" required />
+      </div>
+      <div class="flex-input">
+        <label for="user-pw">여행 일정을 입력해 주세요.</label>
+        <input id="user-pw" name="user-pw" type="password" required />
+      </div>
+
+      <div class="flex-input">
+        <label for="user-pw">필수 희망 여행지</label>
+        <input id="user-pw" name="user-pw" type="password" required />
+      </div>
+
+      <div id="check-save">
+        <label id="la-save" for="id-save">아이디 저장</label>
+        <input id="id-save" type="checkbox" name="id-save" />
+      </div>
+      <button class="login-btn" type="submit">로그인</button>
+    </form>
+  </main>
+
+  <script src="pratice.js"></script>
+</body>
+
+</html>
